@@ -86,18 +86,17 @@ footer {
 <div class="card">
 <h2>Contact Support</h2>
 
-<form action="mailto:Mod3rnsociety@gmail.com" method="post" enctype="text/plain">
+<form action="https://api.web3forms.com/submit" method="POST">
 
-<label>Your Name</label>
-<input type="text" name="name" required>
+    <input type="hidden" name="access_key" value="7c5c655c-a097-4853-8883-b76824eeb8e6">
 
-<label>Your Email</label>
-<input type="email" name="email" required>
+    <input type="text" name="name" placeholder="Your Name" required>
 
-<label>Message</label>
-<textarea name="message" rows="6" required></textarea>
+    <input type="email" name="email" placeholder="Your Email" required>
 
-<button type="submit">Send Message</button>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
 
 </form>
 
