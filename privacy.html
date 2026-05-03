@@ -6,251 +6,349 @@
 <title>Privacy Policy | AutoSpec AI</title>
 
 <style>
-:root {
-    --bg-color: #ffffff;
-    --text-primary: #1a1a1a;
-    --text-secondary: #555555;
-    --accent: #007AFF;
-    --border: #eeeeee;
-}
-
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     line-height: 1.6;
-    color: var(--text-primary);
-    background-color: var(--bg-color);
     margin: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 60px 20px;
-}
-
-header {
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 40px;
-    padding-bottom: 20px;
-}
-
-h1 {
-    font-size: 2.2rem;
-    margin: 0;
-}
-
-.last-updated {
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-    text-transform: uppercase;
-}
-
-h2 {
-    margin-top: 40px;
-    border-left: 4px solid var(--accent);
-    padding-left: 15px;
-}
-
-h3 {
-    margin-top: 20px;
-    color: var(--text-secondary);
-}
-
-p, li {
-    color: var(--text-secondary);
-}
-
-.disclaimer-box {
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    border: 1px solid var(--border);
-    margin: 30px 0;
-}
-
-footer {
-    margin-top: 60px;
-    border-top: 1px solid var(--border);
-    padding-top: 20px;
-    font-size: 0.9rem;
+    padding: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 select {
-    margin-top: 15px;
     padding: 10px;
-    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    margin-top: 30px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="container">
+<h1 id="title">Privacy Policy for AutoSpec AI</h1>
 
-<header>
-<h1 id="policy-title">Privacy Policy</h1>
-
-<select id="language-selector" onchange="changeLanguage()">
+<select onchange="switchLang()" id="lang">
 <option value="en">English</option>
 <option value="es">Español</option>
 </select>
 
-<div class="last-updated" id="last-updated">
-Last Updated: May 2, 2026
-</div>
-</header>
-
 <div id="content"></div>
 
-</div>
-
 <script>
-const englishContent = `
-<section>
-<p>Welcome to <strong>AutoSpec AI</strong>. We are an automotive-focused platform designed to help users with vehicle-related information, inspections, diagnostics, and AI-powered assistance.</p>
 
-<p>This Privacy Policy explains how we collect, use, disclose, and protect information when you use the AutoSpec AI mobile application, website, and related services.</p>
-</section>
+/* =========================
+ENGLISH (EXACT ORIGINAL)
+========================= */
+const EN = `
+<p>Last Updated: May 2, 2026</p>
+
+<p>Welcome to AutoSpec AI (“AutoSpec AI,” “we,” “our,” or “us”).</p>
+
+<p>AutoSpec AI is an automotive-focused platform designed to help users with vehicle-related information, inspections, diagnostics, recommendations, and AI-powered assistance.</p>
+
+<p>This Privacy Policy explains how we collect, use, disclose, and protect information when you use the AutoSpec AI mobile application, website, and related services (collectively, the “Services”).</p>
+
+<p>By using AutoSpec AI, you agree to the practices described in this Privacy Policy.</p>
 
 <h2>1. Information We Collect</h2>
 
 <h3>A. Account Information</h3>
-<ul>
-<li>Email address and profile information.</li>
-</ul>
+<p>When users create an account, we may collect:</p>
+<p>Email address<br>Profile information</p>
 
 <h3>B. Vehicle Information</h3>
-<p>Users may provide information including:</p>
-<ul>
-<li>Vehicle make, model, and year</li>
-<li>VIN (Vehicle Identification)</li>
-<li>App photos, videos, and screenshots</li>
-<li>Inspection and diagnostic information</li>
-</ul>
+<p>Users may provide information related to vehicles in the feedback section of the app, including:</p>
+<p>Vehicle make, model, and year<br>
+VIN (Vehicle Identification Number)<br>
+App photos and videos<br>
+Inspection information<br>
+Screenshot submissions (photos/videos)</p>
 
 <h3>C. AI Interaction Data</h3>
-<p>To improve AI performance and accuracy, we may collect chat conversations, vehicle-related prompts, and user feedback.</p>
+<p>When using AutoSpec AI features, we may collect:</p>
+<p>Questions submitted based on feedback<br>
+Chat conversations<br>
+Vehicle-related prompts<br>
+User feedback<br>
+Generated AI responses</p>
+
+<p>This information helps improve AI performance, accuracy, and user experience.</p>
+
+<h3>D. Media Uploads</h3>
+<p>Users may upload:</p>
+<p>Photos<br>Videos<br>Audio recordings<br>Documents related to vehicles or inspections</p>
+
+<p>These uploads may be processed to provide app functionality and AI-assisted analysis.</p>
+
+<h3>E. Device & Usage Information</h3>
+<p>We may automatically collect:</p>
+<p>Device type<br>
+App version<br>
+Crash logs<br>
+Usage activity<br>
+Diagnostic analytics</p>
 
 <h2>2. How We Use Information</h2>
-<ul>
-<li>Provide and operate AutoSpec AI services.</li>
-<li>Deliver AI-generated automotive assistance.</li>
-<li>Improve app functionality and AI systems.</li>
-<li>Store inspection and vehicle data.</li>
-<li>Prevent fraud and comply with legal obligations.</li>
-</ul>
 
-<div class="disclaimer-box">
+<p>We use collected information to:</p>
+<p>
+Provide and operate AutoSpec AI<br>
+Deliver AI-generated automotive assistance<br>
+Improve app functionality and AI systems<br>
+Generate vehicle-related insights<br>
+Store inspection and vehicle data<br>
+Respond to support requests<br>
+Communicate updates and service notices<br>
+Prevent fraud, abuse, or unauthorized access<br>
+Comply with legal obligations
+</p>
+
 <h2>3. AI Disclaimer</h2>
-<p>AutoSpec AI provides AI-generated responses for <strong>informational purposes only</strong>. AI information may contain errors. Users should independently verify important automotive repairs or safety decisions. We do not replace certified professional inspections.</p>
-</div>
+
+<p>AutoSpec AI provides AI-generated responses intended for informational purposes only.</p>
+
+<p>While we strive for accuracy, AI-generated information may occasionally contain errors or incomplete recommendations. Users should independently verify important automotive repairs, safety decisions, or diagnostic conclusions.</p>
+
+<p>AutoSpec AI does not replace certified professional automotive inspections, repairs, or legal/compliance advice.</p>
 
 <h2>4. Sharing of Information</h2>
-<p><strong>We do not sell personal information.</strong> Information is only shared when required by law, to protect user safety, or with authorized team members.</p>
+
+<p>We do not sell personal information.</p>
+
+<p>We may share information:</p>
+<p>When required by law<br>
+To protect user safety, rights, or security<br>
+With authorized team members or service providers assisting in operations</p>
 
 <h2>5. Data Storage & Security</h2>
-<p>We use commercially reasonable safeguards to protect your data. However, no electronic storage is 100% secure.</p>
+
+<p>We use commercially reasonable safeguards designed to protect user information.</p>
+
+<p>However, no method of electronic storage or transmission is completely secure, and we cannot guarantee absolute security.</p>
+
+<p>Users are responsible for maintaining the confidentiality of their account credentials.</p>
 
 <h2>6. User Content Ownership</h2>
-<p>Users retain ownership of uploaded content (photos, videos, reports). By uploading, you grant us a limited license to host and analyze the content solely to operate the Services.</p>
+
+<p>Users retain ownership of content they upload, including:</p>
+<p>Photos<br>Videos<br>Inspection reports<br>Messages<br>Documents</p>
+
+<p>By uploading content, users grant AutoSpec AI a limited license to host, process, analyze, and display the content solely for operating and improving the Services.</p>
 
 <h2>7. Data Retention & Deletion</h2>
-<p>We retain information as long as necessary to provide services. Users may request account and data deletion within the app settings. Once deleted, all information is permanently removed.</p>
+
+<p>We retain information as long as necessary to:</p>
+<p>Provide the Services<br>
+Maintain records<br>
+Improve platform functionality<br>
+Comply with legal obligations<br>
+Resolve disputes<br>
+Enforce agreements</p>
+
+<p>Users may request deletion of their accounts and associated data within the app settings or by contacting support.</p>
+
+<p>Once deleted, all associated information is permanently removed.</p>
 
 <h2>8. Third-Party Services</h2>
-<p>We may use third-party providers for authentication, analytics, and payments. These parties follow their own privacy policies.</p>
+
+<p>AutoSpec AI may use third-party services for:</p>
+<p>Authentication<br>
+Analytics<br>
+Payments<br>
+Push notifications</p>
+
+<p>These third parties may collect and process information according to their own privacy policies.</p>
 
 <h2>9. Your Rights</h2>
-<p>Depending on your location, you have the right to correct inaccurate information or request deletion. California residents have additional rights under the CCPA; we do not sell personal information.</p>
 
-<footer>
-<p><strong>Contact Us:</strong><br>
-AutoSpec AI Support<br>
-Email: <a href="mailto:Mod3rnsociety@gmail.com">Mod3rnsociety@gmail.com</a></p>
-</footer>
+<p>Depending on your location, you may have rights to:</p>
+<p>Access your personal data<br>
+Correct inaccurate information<br>
+Request deletion of your data<br>
+Restrict or object to certain processing activities</p>
+
+<h2>10. California Privacy Rights</h2>
+
+<p>California residents may have additional rights under the California Consumer Privacy Act (CCPA).</p>
+
+<p>AutoSpec AI does not sell personal information.</p>
+
+<h2>11. Changes to This Privacy Policy</h2>
+
+<p>We may update this Privacy Policy from time to time.</p>
+
+<p>Updated versions will be posted within the app or on our website with a revised “Last Updated” date.</p>
+
+<p>Continued use of the Services after updates constitutes acceptance of the revised Privacy Policy.</p>
+
+<h2>12. Contact Information</h2>
+
+<p>AutoSpec AI Support<br>
+Email: Mod3rnsociety@gmail.com</p>
 `;
 
-const spanishContent = `
-<section>
-<p>Bienvenido a <strong>AutoSpec AI</strong>. Somos una plataforma enfocada en automóviles diseñada para ayudar a los usuarios con información relacionada con vehículos, inspecciones, diagnósticos y asistencia impulsada por inteligencia artificial.</p>
+/* =========================
+SPANISH (FULL TRANSLATION)
+========================= */
+const ES = `
+<p>Última actualización: 2 de mayo de 2026</p>
 
-<p>Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos la información cuando utilizas la aplicación móvil, el sitio web y los servicios relacionados de AutoSpec AI.</p>
-</section>
+<p>Bienvenido a AutoSpec AI (“AutoSpec AI”, “nosotros” o “nuestro”).</p>
+
+<p>AutoSpec AI es una plataforma enfocada en automóviles diseñada para ayudar a los usuarios con información relacionada con vehículos, inspecciones, diagnósticos, recomendaciones y asistencia impulsada por inteligencia artificial.</p>
+
+<p>Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos la información cuando utilizas la aplicación móvil, el sitio web y los servicios relacionados (colectivamente, los “Servicios”).</p>
+
+<p>Al usar AutoSpec AI, aceptas las prácticas descritas en esta Política de Privacidad.</p>
 
 <h2>1. Información que recopilamos</h2>
 
 <h3>A. Información de la cuenta</h3>
-<ul>
-<li>Dirección de correo electrónico e información de perfil.</li>
-</ul>
+<p>Cuando los usuarios crean una cuenta, podemos recopilar:</p>
+<p>Dirección de correo electrónico<br>Información de perfil</p>
 
 <h3>B. Información del vehículo</h3>
-<p>Los usuarios pueden proporcionar información que incluye:</p>
-<ul>
-<li>Marca, modelo y año del vehículo</li>
-<li>VIN (Número de Identificación del Vehículo)</li>
-<li>Fotos, videos y capturas de pantalla dentro de la aplicación</li>
-<li>Información de inspección y diagnóstico</li>
-</ul>
+<p>Los usuarios pueden proporcionar información relacionada con vehículos en la sección de comentarios de la aplicación, incluyendo:</p>
+<p>Marca, modelo y año del vehículo<br>
+VIN (Número de Identificación del Vehículo)<br>
+Fotos y videos de la app<br>
+Información de inspección<br>
+Envíos de capturas (fotos/videos)</p>
 
 <h3>C. Datos de interacción con IA</h3>
-<p>Para mejorar el rendimiento y la precisión de la inteligencia artificial, podemos recopilar conversaciones, solicitudes relacionadas con vehículos y comentarios de los usuarios.</p>
+<p>Cuando se utilizan funciones de AutoSpec AI, podemos recopilar:</p>
+<p>Preguntas enviadas<br>
+Conversaciones<br>
+Solicitudes relacionadas con vehículos<br>
+Comentarios de usuarios<br>
+Respuestas generadas por IA</p>
+
+<p>Esta información ayuda a mejorar el rendimiento, la precisión y la experiencia del usuario.</p>
+
+<h3>D. Subida de archivos multimedia</h3>
+<p>Los usuarios pueden subir:</p>
+<p>Fotos<br>Videos<br>Grabaciones de audio<br>Documentos relacionados con vehículos o inspecciones</p>
+
+<p>Estos archivos pueden procesarse para proporcionar funcionalidad y análisis asistido por IA.</p>
+
+<h3>E. Información del dispositivo y uso</h3>
+<p>Podemos recopilar automáticamente:</p>
+<p>Tipo de dispositivo<br>
+Versión de la app<br>
+Registros de fallos<br>
+Actividad de uso<br>
+Análisis de diagnóstico</p>
 
 <h2>2. Cómo usamos la información</h2>
-<ul>
-<li>Proporcionar y operar los servicios de AutoSpec AI.</li>
-<li>Ofrecer asistencia automotriz generada por IA.</li>
-<li>Mejorar la funcionalidad de la aplicación y los sistemas de IA.</li>
-<li>Almacenar datos de inspección y del vehículo.</li>
-<li>Prevenir fraudes y cumplir con obligaciones legales.</li>
-</ul>
 
-<div class="disclaimer-box">
-<h2>3. Aviso sobre la IA</h2>
-<p>AutoSpec AI proporciona respuestas generadas por inteligencia artificial únicamente con fines informativos. La información generada por IA puede contener errores. Los usuarios deben verificar de forma independiente cualquier reparación importante o decisión relacionada con la seguridad del vehículo. No sustituimos inspecciones profesionales certificadas.</p>
-</div>
+<p>Utilizamos la información recopilada para:</p>
+<p>
+Proporcionar y operar AutoSpec AI<br>
+Ofrecer asistencia automotriz generada por IA<br>
+Mejorar la funcionalidad de la app y los sistemas de IA<br>
+Generar información de vehículos<br>
+Almacenar datos de inspección<br>
+Responder solicitudes de soporte<br>
+Enviar avisos y actualizaciones<br>
+Prevenir fraude o abuso<br>
+Cumplir obligaciones legales
+</p>
 
-<h2>4. Compartición de la información</h2>
-<p><strong>No vendemos información personal.</strong> La información solo se comparte cuando lo exige la ley, para proteger la seguridad de los usuarios o con miembros autorizados del equipo.</p>
+<h2>3. Aviso sobre IA</h2>
+
+<p>AutoSpec AI proporciona respuestas generadas por IA únicamente con fines informativos.</p>
+
+<p>Aunque buscamos precisión, la información generada por IA puede contener errores o recomendaciones incompletas. Los usuarios deben verificar de forma independiente reparaciones importantes, decisiones de seguridad o diagnósticos.</p>
+
+<p>AutoSpec AI no sustituye inspecciones, reparaciones o asesoría profesional certificada.</p>
+
+<h2>4. Compartición de información</h2>
+
+<p>No vendemos información personal.</p>
+
+<p>Podemos compartir información:</p>
+<p>Cuando lo exige la ley<br>
+Para proteger la seguridad, derechos o integridad del usuario<br>
+Con miembros autorizados del equipo o proveedores de servicios</p>
 
 <h2>5. Almacenamiento y seguridad de datos</h2>
-<p>Utilizamos medidas de seguridad comercialmente razonables para proteger tus datos. Sin embargo, ningún sistema de almacenamiento electrónico es 100% seguro.</p>
+
+<p>Utilizamos medidas razonables para proteger la información del usuario.</p>
+
+<p>Sin embargo, ningún método de almacenamiento o transmisión electrónica es completamente seguro.</p>
+
+<p>Los usuarios son responsables de mantener la confidencialidad de sus credenciales.</p>
 
 <h2>6. Propiedad del contenido del usuario</h2>
-<p>Los usuarios conservan la propiedad del contenido que suben (fotos, videos, informes). Al subir contenido, nos otorgas una licencia limitada para alojarlo y analizarlo únicamente con el fin de operar los servicios.</p>
+
+<p>Los usuarios conservan la propiedad del contenido que suben, incluyendo:</p>
+<p>Fotos<br>Videos<br>Informes de inspección<br>Mensajes<br>Documentos</p>
+
+<p>Al subir contenido, los usuarios otorgan a AutoSpec AI una licencia limitada para alojar, procesar, analizar y mostrar el contenido únicamente para operar y mejorar los Servicios.</p>
 
 <h2>7. Retención y eliminación de datos</h2>
-<p>Conservamos la información durante el tiempo necesario para proporcionar nuestros servicios. Los usuarios pueden solicitar la eliminación de su cuenta y datos desde la configuración de la aplicación. Una vez eliminados, todos los datos se eliminan de forma permanente.</p>
+
+<p>Conservamos la información durante el tiempo necesario para:</p>
+<p>Proporcionar los servicios<br>
+Mantener registros<br>
+Mejorar la funcionalidad de la plataforma<br>
+Cumplir obligaciones legales<br>
+Resolver disputas<br>
+Hacer cumplir acuerdos</p>
+
+<p>Los usuarios pueden solicitar la eliminación de sus cuentas y datos desde la app o contactando soporte.</p>
+
+<p>Una vez eliminados, todos los datos se eliminan permanentemente.</p>
 
 <h2>8. Servicios de terceros</h2>
-<p>Podemos utilizar proveedores externos para autenticación, análisis y pagos. Estas entidades operan bajo sus propias políticas de privacidad.</p>
+
+<p>AutoSpec AI puede utilizar servicios de terceros para:</p>
+<p>Autenticación<br>
+Análisis<br>
+Pagos<br>
+Notificaciones push</p>
+
+<p>Estos terceros pueden procesar información según sus propias políticas.</p>
 
 <h2>9. Tus derechos</h2>
-<p>Dependiendo de tu ubicación, tienes derecho a corregir información inexacta o solicitar su eliminación. Los residentes de California tienen derechos adicionales bajo la CCPA; no vendemos información personal.</p>
 
-<footer>
-<p><strong>Contáctanos:</strong><br>
-Soporte de AutoSpec AI<br>
-Correo electrónico: <a href="mailto:Mod3rnsociety@gmail.com">Mod3rnsociety@gmail.com</a></p>
-</footer>
+<p>Dependiendo de tu ubicación, puedes tener derecho a:</p>
+<p>Acceder a tus datos<br>
+Corregir información inexacta<br>
+Solicitar eliminación<br>
+Restringir u oponerte al procesamiento</p>
+
+<h2>10. Derechos de California</h2>
+
+<p>Los residentes de California pueden tener derechos adicionales bajo la CCPA.</p>
+
+<p>AutoSpec AI no vende información personal.</p>
+
+<h2>11. Cambios a esta política</h2>
+
+<p>Podemos actualizar esta política periódicamente.</p>
+
+<p>Las versiones actualizadas se publicarán en la app o sitio web.</p>
+
+<p>El uso continuo implica aceptación de los cambios.</p>
+
+<h2>12. Información de contacto</h2>
+
+<p>Soporte AutoSpec AI<br>
+Correo: Mod3rnsociety@gmail.com</p>
 `;
 
-function changeLanguage() {
-    const lang = document.getElementById("language-selector").value;
-
-    if (lang === "es") {
-        document.getElementById("policy-title").innerText = "Política de Privacidad";
-        document.getElementById("last-updated").innerText = "Última actualización: 2 de mayo de 2026";
-        document.getElementById("content").innerHTML = spanishContent;
-    } else {
-        document.getElementById("policy-title").innerText = "Privacy Policy";
-        document.getElementById("last-updated").innerText = "Last Updated: May 2, 2026";
-        document.getElementById("content").innerHTML = englishContent;
-    }
+function switchLang() {
+    const lang = document.getElementById("lang").value;
+    document.getElementById("content").innerHTML = lang === "es" ? ES : EN;
 }
 
 window.onload = () => {
-    document.getElementById("content").innerHTML = englishContent;
+    document.getElementById("content").innerHTML = EN;
 };
 </script>
 
